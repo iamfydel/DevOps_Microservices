@@ -1,0 +1,36 @@
+    1  git clone https://github.com/iamfydel/DevOps_Microservices.git
+    2  cd DevOps_Microservices/
+    3  ls
+    4  bash resize.sh 100
+    5  make setup
+    6  source ~/.devops/bin/activate
+    7  make install
+    8  make lint
+    9  make install
+   10  make lint
+   11  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+   12  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+   13   curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl
+   14  chmod +x ./kubectl
+   15  sudo mv ./kubectl /usr/local/bin/kubectl
+   16* 
+   17  kubectl version
+   18  make lint
+   19  bash run_docker.sh
+   20  bash upload_docker.sh 
+   21  minikube start
+   22  bash run_kubernetes.sh 
+   23  curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+   24  chmod +x ./kubectl
+   25  sudo mv ./kubectl /usr/local/bin/kubectl
+   26  bash run_kubernetes.sh 
+   27  git add .
+   28  git commit -m "finished all task"
+   29  git push
+   30  git add .
+   31  git commit -m "added status badge"
+   32  git push
+   33  history
+   34  history > cmdhistory.txt
+   35  git add .
+   36  history > .cmdhistory.txt
