@@ -34,7 +34,7 @@ run ./make_prediction.sh
 
 ## A short explanation of the files in the repository.
 
-* [.circleci](/DevOps_Microservices/.circleci): For the CircleCI build server
+* [.circleci](/.circleci): For the CircleCI build server
 * [model_data](/DevOps_Microservices/model_data) : this folder contains the pretrained `sklearn` model and housing csv files
 * [output_txt_files](/DevOps_Microservices/output_txt_files): folder contains sample output logs from running `./run_docker.sh` and `./run_kubernetes.sh`
 * [app.py](/DevOps_Microservices/app.py) : contains the flask app
