@@ -34,3 +34,34 @@
    34  history > cmdhistory.txt
    35  git add .
    36  history > .cmdhistory.txt
+    1  git clone https://github.com/iamfydel/DevOps_Microservices.git
+    2  cd DevOps_Microservices/
+    3  ls
+    4  bash resize.sh 100
+    5  make setup
+    6  source ~/.devops/bin/activate
+    7  make install
+    8  make lint
+    9  make install
+   10  make lint
+   11  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+   12  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+   13   curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl
+   14  chmod +x ./kubectl
+   15  sudo mv ./kubectl /usr/local/bin/kubectl
+   16  docker --version
+   17  kubectl version
+   18  make lint
+   19  bash run_docker.sh
+   20  cd DevOps_Microservices/
+   21* make setu
+   22  source ~/.devops/bin/activate
+   23  bash make_prediction.sh 
+   24  bash run_docker.sh
+   25  bash make_prediction.sh 
+   26  touch docker
+   27  touch docker_out.txt
+   28  touch kubernetes_out.txt
+   29  bash make_prediction.sh 
+   30  history
+   31  history >> .cmdhistory.txt 
