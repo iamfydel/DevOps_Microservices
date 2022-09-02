@@ -21,16 +21,16 @@ The following tasks were performed:
 
 ## Instructions to run scripts
 
-run python app.py
+* run python app.py
 
 ### In Docker
-run ./run_docker.sh
-run ./make_prediction.sh
-run ./upload_docker.sh
+* run ./run_docker.sh
+* run ./make_prediction.sh
+* run ./upload_docker.sh
 
 ### In Kubernetes
-run ./run_kubernetes.sh
-run ./make_prediction.sh
+* run ./run_kubernetes.sh
+* run ./make_prediction.sh
 
 ## A short explanation of the files in the repository.
 
